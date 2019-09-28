@@ -341,7 +341,7 @@ func (c *valueCtx) Value(key interface{}) interface{} {
 }
 ```
 
-2.4) 几个直接使用的函数：
+2.4) 几个直接使用的函数： <br>
 // 创建一个带有退出通知的 Context，内部有 cancelCtx 实例，实现了 cancel 方法 <br>
 func WithCancel (parent Context) (Context, cancel CancelFunc)
 
